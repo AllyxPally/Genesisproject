@@ -1,0 +1,11 @@
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+body {
+  max-width: 1600px;
+  width: 100%;
+  min-height: auto;
+}
