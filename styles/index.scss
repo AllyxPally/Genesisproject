@@ -1,8 +1,3 @@
 @import 'header';
 @import 'main';
-
-
-body {
-    font-family: fonts.$primaryfont;
-    color: fonts.$primary_2; 
-}
+@import 'footer';
