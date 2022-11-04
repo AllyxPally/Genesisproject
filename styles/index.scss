@@ -1,3 +1,17 @@
+@use 'fonts';
+
 @import 'header';
 @import 'main';
 @import 'footer';
+
+body {
+    max-width: 1400px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+h2 {
+    color: fonts.$primary_2;
+}
