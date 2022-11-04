@@ -1,8 +1,25 @@
-.nav-logo {
-    justify-content: space-around;
-}
-.nav-links {
+header {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    align-items: center;
+    
+}
+
+header-text .links {
+    display: flex;
+    max-width: 353px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+} 
+
+header ul {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 163px;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-between;
 }
