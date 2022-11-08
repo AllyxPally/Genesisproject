@@ -9,10 +9,11 @@ body {
     margin:auto;
     display: flex;
     flex-direction: column;
+    font-style: fonts.$primaryfont;
   
   }
 
-h2 {
+/*h2 {
     font-family: fonts.$primaryfont;
     color: fonts.$primary_2;
 }
