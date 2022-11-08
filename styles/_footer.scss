@@ -8,6 +8,11 @@ footer img {
     max-width: 90px;
 }
 
+footer .footer-text{
+    display: flex;
+   flex-direction: row-reverse;
+}
+
 footer .links {
     display: flex;
     max-width: 353px;

@@ -1,10 +1,10 @@
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header-text .links {
+.header-text .links {
   display: flex;
   max-width: 353px;
   width: 100%;
@@ -12,7 +12,7 @@ header-text .links {
   align-items: center;
 }
 
-header ul {
+.header ul {
   display: flex;
   font-size: 18px;
   font-weight: 700;
@@ -29,13 +29,74 @@ body {
   flex-direction: column;
 }
 
-.collage {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1110px;
+.collage-container {
+  display: grid;
+  grid-template-columns: repeat(32, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  align-content: center;
+  gap: 1%;
   width: 100%;
-  min-height: 1960px;
+  height: 100vh;
+}
+
+.collage1 {
+  grid-column: 1/9;
+  grid-row: 1/5;
+}
+
+.collage2 {
+  grid-column: 1/8;
+  grid-row: 1/5;
+}
+
+.collage3 {
+  grid-column: 1/12;
+  grid-row: 1/5;
+}
+
+.collage4 {
+  grid-column: 1/5;
+  grid-row: 8/18;
+}
+
+.collage5 {
+  grid-column: 4/7;
+  grid-row: 7/15;
+}
+
+.collage6 {
+  grid-column: 7/10;
+  grid-row: 11/19;
+}
+
+.collage7 {
+  grid-column: 1/5;
+  grid-row: 16/25;
+}
+
+.collage8 {
+  grid-column: 4/7;
+  grid-row: 14/24;
+}
+
+.collage9 {
+  grid-column: 7/10;
+  grid-row: 18/28;
+}
+
+.collage10 {
+  grid-column: 1/5;
+  grid-row: 24/33;
+}
+
+.collage11 {
+  grid-column: 4/7;
+  grid-row: 23/33;
+}
+
+.collage12 {
+  grid-column: 7/10;
+  grid-row: 27/33;
 }
 
 footer {
@@ -46,6 +107,11 @@ footer {
 
 footer img {
   max-width: 90px;
+}
+
+footer .footer-text {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 footer .links {

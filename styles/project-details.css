@@ -1,10 +1,10 @@
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header-text .links {
+.header-text .links {
   display: flex;
   max-width: 353px;
   width: 100%;
@@ -12,7 +12,7 @@ header-text .links {
   align-items: center;
 }
 
-header ul {
+.header ul {
   display: flex;
   font-size: 18px;
   font-weight: 700;
@@ -30,6 +30,11 @@ footer {
 
 footer img {
   max-width: 90px;
+}
+
+footer .footer-text {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 footer .links {

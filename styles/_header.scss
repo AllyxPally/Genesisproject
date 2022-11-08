@@ -1,11 +1,11 @@
-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
 
-header-text .links {
+.header-text .links {
     display: flex;
     max-width: 353px;
     width: 100%;
@@ -14,7 +14,7 @@ header-text .links {
     
 } 
 
-header ul {
+.header ul {
     display: flex;
     font-size: 18px;
     font-weight: 700;
