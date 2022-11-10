@@ -1,6 +1,7 @@
 @use 'fonts';
 
 
+
 @import 'header';
 @import 'footer';
 
@@ -25,7 +26,8 @@
 .img-woman {
   max-width: 1110px;
   width: 100%;
-  min-height: 660px;  
+  min-height: 660px; 
+  
 }
 
 .project-text1 {
