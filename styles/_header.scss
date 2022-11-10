@@ -1,18 +1,20 @@
+@use 'fonts';
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1109px;
+    width: 100%;
+    height: 23px;
     
 }
 
-.header-text .links {
+.header-text {
     display: flex;
-    max-width: 353px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    
-} 
+    font-family: fonts.$primaryfont;
+    color: fonts.$primary_1;
+}
 
 .header ul {
     display: flex;
@@ -22,4 +24,9 @@
     width: 100%;
     list-style: none;
     justify-content: space-between;
+    
+}
+
+.header ul a {
+    text-decoration: none;
 }

@@ -5,6 +5,13 @@
 @import 'header';
 @import 'footer';
 
+body {
+    max-width: 1400px;
+    width: 100%;
+    min-height: 2068px;
+    padding: 2%;
+}
+
 .project-heading {
     max-width: 475px;
     width: 100%;

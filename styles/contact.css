@@ -2,14 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1109px;
+  width: 100%;
+  height: 23px;
 }
 
-.header-text .links {
+.header-text {
   display: flex;
-  max-width: 353px;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
+  font-family: "mulish", sans-serif;
+  color: #111111;
 }
 
 .header ul {
@@ -18,8 +19,12 @@
   font-weight: 700;
   max-width: 163px;
   width: 100%;
-  list-style-type: none;
+  list-style: none;
   justify-content: space-between;
+}
+
+.header ul a {
+  text-decoration: none;
 }
 
 footer {
@@ -34,7 +39,11 @@ footer img {
 
 footer .footer-text {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  font-family: "mulish", sans-serif;
+  color: #4A4FF2;
 }
 
 footer .links {
@@ -63,12 +72,46 @@ footer ul a {
 footer .footer-logos {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 95px;
   width: 100%;
 }
 
-.footer-line {
-  opacity: 0.4;
+body {
+  max-width: 1400px;
+  width: 100%;
+  min-height: 1375px;
+  padding: 2%;
+}
+
+.contact-heading {
+  max-width: 475px;
+  width: 100%;
+  min-height: 174px;
+  font-family: "mulish", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.contact-info {
+  max-width: 445px;
+  width: 100%;
+  height: 56px;
+  font-family: "mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  opacity: 80%;
+}
+
+.contact-left {
+  display: flex;
+}
+
+.contact-right {
+  display: inline;
 }
 
 .form {
@@ -80,28 +123,53 @@ footer .footer-logos {
   min-height: 291px;
 }
 
-.form-label {
+.form-label .form-input {
   max-width: 475px;
   width: 100%;
   height: 37px;
 }
 
-.form-input {
-  width: auto; /*change this*/
+.name {
+  width: 46px;
+  height: 20px;
+  opacity: 60%;
+}
+
+.email {
+  width: 43px;
+  height: 20px;
+  opacity: 60%;
+}
+
+.message {
+  width: 68px;
+  height: 20px;
+  opacity: 60%;
 }
 
 .form-line {
+  max-width: 475px;
+  width: 100%;
+  height: 1px;
   border: 1px solid #979797;
-  opacity: 0.6;
+  opacity: 30%;
 }
 
 .form-btn {
   max-width: 125px;
   width: 100%;
   height: 50px;
+  border: none;
+  font-family: "mulish", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #4A4FF2;
 }
 
 .map-img {
   display: flex;
   justify-content: center;
+  align-items: center;
 }

@@ -38,14 +38,21 @@ body {
   color: #4A4FF2;
 }
 
+.design-left {
+  display: flex;
+  justify-content: center;
+  max-width: 635px;
+  width: 100%;
+  min-height: 251px;
+}
+
 .design-right {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   flex-direction: column;
   max-width: 212px;
   width: 100%;
   height: 34px;
-
 }
 
 .design-line {
@@ -58,6 +65,7 @@ body {
   max-width: 207px;
   width: 100%;
   height: 23px;
+  text-align: right;
   font-family: 'mulish';
   font-weight: 400;
   font-style: italic;
@@ -250,6 +258,45 @@ grid-row: 24 / 30;
 
 .css-design {
   width: 198px;
+}
+
+.awards-bold-txt {
+  max-width: 125px;
+  width: 100%;
+  height: 23px;
+  font-family: fonts.$primaryfont;
+}
+
+.awards-regular-txt {
+  max-width: 102px;
+  width: 100%;
+  height: 20px;
+  font-family: fonts.$primaryfont;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.awards-light-txt {
+  max-width: 190px;
+  width: 100%;
+  min-height: 104px;
+  opacity: 60%;
+  font-family: fonts.$primaryfont;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: fonts.$primary_1;
+}
+
+.awards-year {
+  width: 39px;
+  height: 20px;
+  font-family: fonts.$primaryfont;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
 }
 
 h2 {
