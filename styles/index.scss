@@ -15,12 +15,13 @@ body {
 .main-title {
   width: 173px;
   height: 28px;
+  margin-top: 60px;
   font-family: 'Mulish';
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
   letter-spacing: -0.42px;
-  color: #4A4FF2;
+  color: fonts.$primary_2;
 }
 
 .title-info {
@@ -31,11 +32,17 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-  color: #111111;
+  color: fonts.$primary_1;
 }
 
 .colored-txt {
-  color: #4A4FF2;
+  color: fonts.$primary_2;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .design-left {
@@ -44,15 +51,19 @@ body {
   max-width: 635px;
   width: 100%;
   min-height: 251px;
+  
 }
 
 .design-right {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: flex-end;
   max-width: 212px;
   width: 100%;
   height: 34px;
+  margin-right: 100px;
+  margin-top: 80px;
 }
 
 .design-line {
@@ -82,11 +93,11 @@ body {
   align-items: flex-start;
   max-width: 1110px;
   width: 100%;
+  margin:auto;
   box-sizing: border-box;
   margin-top: 50px;
   margin-bottom: 10px;
   padding: 0 20px;
-
 }
 
 .collage-container {
@@ -178,13 +189,20 @@ grid-row: 24 / 30;
 .heading-text {
   max-width: 635px;
   width: 100%;
-  min-height: 106px;
   font-family: 'mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 38px;
   color: #111111;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+ margin-bottom: 70px;
 }
 
 .service-left {
@@ -210,10 +228,19 @@ grid-row: 24 / 30;
   color:#111111;
 }
 
+.services {
+  margin: 0;
+}
+
 .services li {
   display: flex;
   flex-direction: column;
   list-style: none;
+}
+
+.services a {
+  text-decoration: none;
+  color: fonts.$primary_1;
 }
 
 .services-1 {
@@ -242,11 +269,23 @@ grid-row: 24 / 30;
   width: 59px;
 }
 
+hr {
+  border: 0;
+  border-bottom: 1px solid #d8d8d8;
+  margin: 10px 5px;
+}
+
+.award {
+  display: flex;
+  justify-content: space-between;
+}
+
 .awards {
   max-width: 1110px;
   width: 100%;
   min-height: 823px;
 }
+
 
 .awards-main-txt {
   width: 121px;

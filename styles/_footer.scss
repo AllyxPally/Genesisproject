@@ -2,7 +2,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin-top: 20px;
 }
 
 footer img {
@@ -14,9 +14,6 @@ footer .footer-text{
     justify-content: space-between;
     align-items: center;
     width: 500px;
-    font-family: fonts.$primaryfont;
-    color: fonts.$primary_2;
-    
 }
 
 footer .links {
@@ -25,7 +22,6 @@ footer .links {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-   
 } 
 
 footer ul {
@@ -42,6 +38,8 @@ footer ul {
 footer ul a {
     display: flex;
     text-decoration: none;
+    font-family: fonts.$primaryfont;
+    color: fonts.$primary_1;
 }
 
 footer .footer-logos {

@@ -31,6 +31,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 
 footer img {
@@ -42,8 +43,6 @@ footer .footer-text {
   justify-content: space-between;
   align-items: center;
   width: 500px;
-  font-family: "mulish", sans-serif;
-  color: #4A4FF2;
 }
 
 footer .links {
@@ -67,6 +66,8 @@ footer ul {
 footer ul a {
   display: flex;
   text-decoration: none;
+  font-family: "mulish", sans-serif;
+  color: #111111;
 }
 
 footer .footer-logos {
@@ -78,10 +79,16 @@ footer .footer-logos {
 }
 
 body {
-  max-width: 1400px;
+  max-width: 1109px;
   width: 100%;
   min-height: 1375px;
   padding: 2%;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .contact-heading {
@@ -95,6 +102,7 @@ body {
 }
 
 .contact-info {
+  display: flex;
   max-width: 445px;
   width: 100%;
   height: 56px;
@@ -106,14 +114,6 @@ body {
   opacity: 80%;
 }
 
-.contact-left {
-  display: flex;
-}
-
-.contact-right {
-  display: inline;
-}
-
 .form {
   display: flex;
   justify-content: right;
@@ -121,12 +121,33 @@ body {
   max-width: 475px;
   width: 100%;
   min-height: 291px;
+  margin-top: 50px;
 }
 
 .form-label .form-input {
   max-width: 475px;
   width: 100%;
   height: 37px;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid #d8d8d8;
+  margin: 10px 5px;
+}
+
+label {
+  font-family: "mulish", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 60%;
+}
+
+.contact-right {
+  display: flex;
+  justify-content: right;
+  width: 50%;
 }
 
 .name {
@@ -147,18 +168,12 @@ body {
   opacity: 60%;
 }
 
-.form-line {
-  max-width: 475px;
-  width: 100%;
-  height: 1px;
-  border: 1px solid #979797;
-  opacity: 30%;
-}
-
 .form-btn {
   max-width: 125px;
   width: 100%;
   height: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
   border: none;
   font-family: "mulish", sans-serif;
   font-weight: 700;
@@ -168,8 +183,15 @@ body {
   background-color: #4A4FF2;
 }
 
+.form-btn:hover {
+  cursor: pointer;
+  background-color: #111111;
+}
+
 .map-img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }

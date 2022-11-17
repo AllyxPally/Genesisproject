@@ -31,6 +31,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 
 footer img {
@@ -42,8 +43,6 @@ footer .footer-text {
   justify-content: space-between;
   align-items: center;
   width: 500px;
-  font-family: "mulish", sans-serif;
-  color: #4A4FF2;
 }
 
 footer .links {
@@ -67,6 +66,8 @@ footer ul {
 footer ul a {
   display: flex;
   text-decoration: none;
+  font-family: "mulish", sans-serif;
+  color: #111111;
 }
 
 footer .footer-logos {
@@ -78,10 +79,23 @@ footer .footer-logos {
 }
 
 body {
-  max-width: 1400px;
+  max-width: 1110px;
   width: 100%;
   min-height: 2068px;
   padding: 2%;
+  margin: auto;
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-heading {
@@ -97,15 +111,41 @@ body {
   max-width: 635px;
   width: 100%;
   min-height: 222px;
+  font-family: "mulish", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  color: #111111;
+  opacity: 0.8;
+}
+
+.detail-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-light {
+  font-family: "mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #111111;
+  opacity: 50%;
+}
+
+.details-bold {
+  font-family: "mulish", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .img-woman {
   max-width: 1110px;
   width: 100%;
   min-height: 660px;
+  margin: auto;
 }
 
 .project-text1 {
@@ -113,16 +153,17 @@ body {
   width: 100%;
   height: 93px;
   opacity: 80%;
-  /*text-align: center;*/
 }
 
 .images {
-  max-width: 350px;
   width: 100%;
   min-height: 400px;
-  display: inline;
-  padding: 100px;
-  justify-content: space-around;
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+}
+
+.images img {
+  margin: 1%;
 }
 /*# sourceMappingURL=project-details.css.map */
