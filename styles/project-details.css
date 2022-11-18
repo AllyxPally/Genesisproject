@@ -81,7 +81,6 @@ footer .footer-logos {
 body {
   max-width: 1110px;
   width: 100%;
-  min-height: 2068px;
   padding: 2%;
   margin: auto;
 }
@@ -90,6 +89,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 80px;
 }
 
 .left-text {
@@ -105,6 +105,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 55px;
+  margin-bottom: 60px;
 }
 
 .project-text {
@@ -123,6 +124,31 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
+}
+
+.details-right {
+  width: 335px;
+  height: 343px;
+  margin-bottom: 50px;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
 }
 
 .details-light {
@@ -139,6 +165,12 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #d8d8d8;
+  margin: 10px 5px;
 }
 
 .img-woman {
